@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0;
+    padding: 0;  
+}
+h1, h2{
+    font-family: 'idroid';
+    color: #1D653C;
+}
+h2{
+    background-image: linear-gradient(to right, #84E1AD, white);
+    padding: 5px;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+header{
+    color: rgb(230, 230, 230);
+    text-align: center;
+    background-image: linear-gradient(to top, #091e12, #3CD681 );
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;  
+    
+}
+header > h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;   
+}
+header > p{
+    text-align: center;
+}
+nav{
+    background-color: #1D653C;
+    text-align: left;
+    padding: 10px;
+}
+nav a{
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: #299257;
+    background-color: #164a2d;
+    transition: 1s;
+}
+main{
+    min-width: 320px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.363);
+}
+img{
+    width: 100%;
+    margin: auto;
+}
+
+.video{
+    background-color: #1A5C38;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside{
+    background-color: #C5EBD6;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.281);
+}
+aside > h3{
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 10px -10px;
+    border-radius: 10px 10px 0 0;
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+}
+li::before{
+    content: "✔ ";
+}
+footer{
+    background-color: #164a2d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+span{
+    color: #1D653C;
+    font-weight: bold;
+    
+}
+span#lig{
+    color: #1D653C;
+    background-color: #2fa8653b;
+}
+span#lig::after{
+    content: "🔗";
+
+}
+span#lig:hover{
+    color: white;
+
+}
+span#lig > a{
+    text-decoration: none;
+    color: #1D653C;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Daily';
+            src: url('Daily.otf') format('opentype');/*se tiver outro formato, é só colocar uma vírgula colocar mais um outro URL com o otro formato*/;
+            font-weight: normal;
+            font-style: normal;
+
+            /*Tipos de format()
+            -Opentype-otf
+            -Truetype-ttf
+            -embedded-opentype
+            -truetype-aat
+            -svg*/
+        }
+        body{
+            font-family: 'Daily', Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Daily';
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quidem assumenda dolore. Veniam fuga alias veritatis quis, mollitia modi voluptas eum eveniet voluptatum maxime suscipit error amet similique laudantium tenetur!</p>
+</body>
+</html>

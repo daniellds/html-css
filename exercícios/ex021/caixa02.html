@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(196, 176, 176);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px;
+            margin: 0px;
+        }
+        header{
+            background-color: beige;
+            padding: 15px;
+            margin: 10px;
+             box-shadow: 1px 1px 6px 0px rgba(33, 33, 33, 0.306);
+            
+        }
+        nav{
+            text-align: right;
+            background-color: rgb(135, 128, 135);
+            box-shadow: 1px 1px 6px 0px rgba(33, 33, 33, 0.306);
+            border-radius: 2px;
+            padding: 2px;
+            margin: 0;
+
+        }
+        nav > a:hover{
+            color: rgb(118, 255, 55);
+            text-decoration: dashed;
+            transition: 0.25s;
+            cursor: cell;
+            
+        }
+        a{
+            text-decoration: none;
+            color: rgb(54, 68, 68);
+        }
+        main{
+            background-color: beige;
+            padding: 15px;
+            margin: 10px;
+            box-shadow: 1px 1px 6px 0px rgba(33, 33, 33, 0.306);
+            
+        }
+        article{
+            background-color: rgb(135, 128, 135);
+            color: antiquewhite;
+            border-radius: 2px;
+            padding: 10px;
+            margin: auto;
+            width: 560px;
+        }
+        #assuntos{
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+
+
+        }
+        #noticias{
+            margin: 0;
+            padding: 0;
+            text-align: justify;
+            
+        }
+        #autor{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            height: 50px;
+            padding-top: 2px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Notícias Tecnologia</p>
+        </section>
+            <section id="noticias">
+                <article>
+                    <h2>Notícias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore laudantium distinctio similique, repellendus dignissimos iusto omnis tenetur asperiores ducimus, nostrum deserunt, consequuntur fuga ipsa ipsam ratione repellat reprehenderit nihil voluptatibus!</p>
+                    <aside>
+                        <p id="autor">Artigo escrito por Jóse da Silva</p>
+                    </aside>
+                </article>
+                <article>
+                
+                </article>
+            </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Daniel dos Santos</p>
+
+    </footer>
+</body>
+</html>
