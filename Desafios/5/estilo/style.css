@@ -40,12 +40,13 @@ a:hover{
     text-decoration: underline;
 }
 section{
-    padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30px;
     line-height: 2em;
-    font-size: 2.2vw;
     font-family: var(--font2);
+    font-size: 2.2vw;
+    
 }
 section > p{
     padding-bottom: 2em;
@@ -60,21 +61,22 @@ section > p{
     box-shadow: inset 5px 5px 12px 0px rgba(0, 0, 0, 0.292);
     background-size: cover;
     background-attachment: fixed;
+   
 }
 .img > p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.297);
     padding: 10px;
+    background-color: rgba(0, 0, 0, 0.297);
     text-shadow: 1px 1px 0px black;
 }
 section#01{
     
-    background-image: url('imagens/background001.jpg');
+    background-image: url('../imagens/background001.jpg');
     background-position: right center;
 
 }
 section#02{
-    background-image: url('imagens/background002.jpg');
+    background-image: url('../imagens/background002.jpg');
     background-position: right center;
 }
 footer{
