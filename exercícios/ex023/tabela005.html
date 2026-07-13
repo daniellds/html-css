@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th, td{
+            width: 100px;
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        .cnome{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Cadastro</caption>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Daniel</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Web developer</td>
+        </tr>
+        <tr>
+            <td>Neymar</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Jogador</td>
+        </tr>
+        <tr>
+            <td>Cristiano</td>
+            <td>M</td>
+            <td>41</td>
+            <td>Jogador</td>
+        </tr>
+        <tr>
+            <td>Messi</td>
+            <td>M</td>
+            <td>39</td>
+            <td>GOAT em tudo</td>
+        </tr>
+    </table>
+</body>
+</html>
